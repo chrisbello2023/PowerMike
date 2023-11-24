@@ -1,26 +1,5 @@
-<p align='center'>
-<img src='https://raw.githubusercontent.com/williamniemiec/nfit-app/master/docs/images/logo/logo.jpg' />
-</p>
-
-<h1 align='center'>nFit - APP</h1>
-<p align='center'>Simple work out app.</p>
-<p align="center">
-	<a href="https://github.com/williamniemiec/nfit-app/actions/workflows/windows.yml"><img src="https://github.com/williamniemiec/nfit-app/actions/workflows/windows.yml/badge.svg" alt=""></a>
-	<a href="https://github.com/williamniemiec/nfit-app/actions/workflows/macos.yml"><img src="https://github.com/williamniemiec/nfit-app/actions/workflows/macos.yml/badge.svg" alt=""></a>
-	<a href="https://github.com/williamniemiec/nfit-app/actions/workflows/ubuntu.yml"><img src="https://github.com/williamniemiec/nfit-app/actions/workflows/ubuntu.yml/badge.svg" alt=""></a>
-	<a href="https://reactnative.dev/"><img src="https://img.shields.io/badge/React Native-0.66+-D0008F.svg" alt="React Native compatibility"></a>
-	<a href="https://github.com/williamniemiec/nfit-app/blob/master/LICENSE"><img src="https://img.shields.io/github/license/williamniemiec/nfit-app" alt="License"></a>
-	<a href="https://github.com/williamniemiec/nfit-app/releases"><img src="https://img.shields.io/github/v/release/williamniemiec/nfit-app" alt="Release"></a>
-</p>
-
-<p align="center">
-	<a href='https://play.google.com/store/apps/details?id=wniemiec.app.nfit&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' width=172 /></a>
-</p>
-
-<hr />
-
 ## ❇ Introduction
-nFit is a simple work out app made using [React Native](https://reactnative.dev/). The main objective was to develop a mobile application for learning purposes only, not for profit. You can interact with the project downloading the app on your smartphone through PlayStore ([click here to access](https://play.google.com/store/apps/details?id=wniemiec.app.nfit)).
+PowerMike is a simple work out app made using [React Native](https://reactnative.dev/). The main objective was to develop a mobile application for learning purposes only, not for profit. You can interact with the project downloading the app on your smartphone through PlayStore ([click here to access](https://play.google.com/store/apps/details?id=wniemiec.app.nfit)).
 
 ## ✔ Requirements
 - [JDK 8+](https://www.oracle.com/java/technologies/downloads/);
@@ -90,34 +69,3 @@ ReferenceError: SHA-1 for file /usr/local/lib/node_modules/react-native/node_mod
 <img height=400 src="https://raw.githubusercontent.com/williamniemiec/nfit-app/master/docs/images/screens/screen12.png" alt="image 12" />
 </div>
 
-
-## 🚩 Changelog
-Details about each version are documented in the [releases section](https://github.com/williamniemiec/nfit-app/releases).
-
-## 🗺 Project structure
-![architecture](https://raw.githubusercontent.com/williamniemiec/nfit-app/master/docs/images/design/architecture.png)
-
-## 📁 Files
-
-### /
-|        Name        |Type|Description|
-|----------------|-------------------------------|-----------------------------|
-|\_\_tests\_\_|`Directory`|Test files|
-|android|`Directory`|Android source files|
-|docs |`Directory`|Documentation files|
-|ios|`Directory`|iOS source files|
-|src     |`Directory`| Source files|
-
-### /src
-|        Name        |Type|Description|
-|----------------|-------------------------------|-----------------------------|
-|assets|`Directory`|Application static files|
-|components|`Directory`|Reusable objects|
-|config|`Directory`|Configuration files|
-|locales|`Directory`|Translation files|
-|navigators|`Directory`|React Navigation files|
-|reducers|`Directory`|React Redux files|
-|screens|`Directory`|Application screens|
-|services|`Directory`|Classes responsible for providing data from APIs and utility services|
-|App.js|`File`|Application point entry|
-|Store.js|`File`|React Redux configuration file|
